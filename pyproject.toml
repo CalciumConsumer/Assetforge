@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "asfr"
+version = "0.0.1"
+description = "A CLI tool for Asset Managment"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [{ name = "Your Name", email = "your.email@example.com" }]
+dependencies = [
+    "typer[all]",
+    "Pillow"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+requires-python = ">=3.7"
+
+[project.scripts]
+asfr = "AssetForge.main:app"
+
+[tool.hatch.build.targets.wheel]
+packages = ["AssetForge"]              # Include the 'AssetForge' directory
+include = ["AssetForge/**", "README.md", "LICENSE"]  # Explicitly include necessary files
+
