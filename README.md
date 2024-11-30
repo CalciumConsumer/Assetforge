@@ -9,6 +9,13 @@ It simplifies common image manipulation tasks, such as:
 - Adjusing brightness and contrast
 - Batch processing for the aforementioned tasks
 
+To install the app, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/CalciumConsumer/Assetforge.git
+   cd Assetforge
+   pip install .
 ## Motivation
 
 In game development and web development, quick edits to image assets are often needed.\
