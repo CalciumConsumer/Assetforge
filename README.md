@@ -1,4 +1,6 @@
 # AssetForge
+## WIP
+This repository is a work in progress and not yet complete—contributions and feedback are welcome!
 
 ## Introduction
 
