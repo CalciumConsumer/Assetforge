@@ -8,7 +8,7 @@ version = "0.0.1"
 description = "A CLI tool for Asset Managment"
 readme = "README.md"
 license = { file = "LICENSE" }
-authors = [{ name = "Your Name", email = "your.email@example.com" }]
+authors = [{ name = "CalciumConsumer", email = "" }]
 dependencies = [
     "typer[all]",
     "Pillow"
@@ -24,6 +24,6 @@ requires-python = ">=3.7"
 asfr = "AssetForge.main:app"
 
 [tool.hatch.build.targets.wheel]
-packages = ["AssetForge"]              # Include the 'AssetForge' directory
-include = ["AssetForge/**", "README.md", "LICENSE"]  # Explicitly include necessary files
+packages = ["AssetForge"]              
+include = ["AssetForge/**", "README.md", "LICENSE"]  
 
